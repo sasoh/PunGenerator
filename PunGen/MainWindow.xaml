@@ -1,0 +1,22 @@
+﻿<Window x:Class="PunGen.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PunGen"
+        mc:Ignorable="d"
+        Title="PunGen" Height="350" Width="538.92" ResizeMode="NoResize">
+    <Grid Width="520" Margin="2">
+        <Button x:Name="buttonSelectFile" Content="Select dictionary file" Margin="10,108,0,0" Click="button_Click" Width="128" IsDefault="True" Height="20" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <TextBox x:Name="textBoxLetterCount" HorizontalAlignment="Left" Height="23" Margin="95,10,0,0" TextWrapping="Wrap" Text="4" VerticalAlignment="Top" Width="43" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" MaxLines="1"/>
+        <Label x:Name="labelLetters" Content="Same letters" HorizontalAlignment="Left" Margin="10,7,0,0" VerticalAlignment="Top" Width="80" Height="62"/>
+        <ScrollViewer HorizontalAlignment="Right" Margin="0,0,0,10" VerticalAlignment="Bottom" Height="297" Width="377" >
+            <TextBox x:Name="textBoxPreview" TextWrapping="Wrap" Text="Preview here...&#xA;" IsUndoEnabled="False" IsReadOnly="True" VerticalScrollBarVisibility="Auto"/>
+        </ScrollViewer>
+        <TextBox x:Name="textBoxLimit" HorizontalAlignment="Left" Height="23" Margin="95,41,0,0" TextWrapping="Wrap" Text="100" VerticalAlignment="Top" Width="43" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" MaxLines="1"/>
+        <Label x:Name="labelLimit" Content="Object limit" HorizontalAlignment="Left" Margin="10,38,0,0" VerticalAlignment="Top" Width="80" Height="26"/>
+        <Button x:Name="buttonGenerate" Content="Generate!" HorizontalAlignment="Left" Margin="10,0,0,10" VerticalAlignment="Bottom" Width="128" Click="buttonGenerate_Click" Height="20"/>
+        <TextBox x:Name="textBoxExtra" HorizontalAlignment="Left" Height="23" Margin="95,72,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="43" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" MaxLines="1"/>
+        <Label x:Name="labelLimit_Copy" Content="Extra Length" HorizontalAlignment="Left" Margin="10,69,0,0" VerticalAlignment="Top" Width="80" Height="26"/>
+    </Grid>
+</Window>

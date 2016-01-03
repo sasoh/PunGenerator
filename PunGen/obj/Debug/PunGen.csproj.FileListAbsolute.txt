@@ -1,0 +1,14 @@
+D:\projects\temp\PunGen\PunGen\bin\Debug\PunGen.exe.config
+D:\projects\temp\PunGen\PunGen\bin\Debug\PunGen.exe
+D:\projects\temp\PunGen\PunGen\bin\Debug\PunGen.pdb
+D:\projects\temp\PunGen\PunGen\obj\Debug\PunGen.csprojResolveAssemblyReference.cache
+D:\projects\temp\PunGen\PunGen\obj\Debug\MainWindow.g.cs
+D:\projects\temp\PunGen\PunGen\obj\Debug\App.g.cs
+D:\projects\temp\PunGen\PunGen\obj\Debug\PunGen_MarkupCompile.cache
+D:\projects\temp\PunGen\PunGen\obj\Debug\PunGen_MarkupCompile.lref
+D:\projects\temp\PunGen\PunGen\obj\Debug\MainWindow.baml
+D:\projects\temp\PunGen\PunGen\obj\Debug\PunGen.g.resources
+D:\projects\temp\PunGen\PunGen\obj\Debug\PunGen.Properties.Resources.resources
+D:\projects\temp\PunGen\PunGen\obj\Debug\PunGen.csproj.GenerateResource.Cache
+D:\projects\temp\PunGen\PunGen\obj\Debug\PunGen.exe
+D:\projects\temp\PunGen\PunGen\obj\Debug\PunGen.pdb
